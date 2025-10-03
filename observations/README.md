@@ -55,3 +55,10 @@ Occasionally the first part contains traces of menus, while the second part cons
 * No porn
 * Some documents contain news snippets concatenated together, so natural/fluent at the sentence level but not "coherent".
 * A lot of documents contain “report”, “share”, “follow us” etc at the end which may be part of article and not boilerplate but I have still flagged them
+
+# Erik, [fin_Latn/batch3.tsv](../annot_round1/fin_Latn/batch3.tsv)
+
+* Lang id is 100% perfect
+* 7 porn docs
+* Text artifacts are relatively common, most frequently from comment sections, e.g. "VastaaPoista" ("ReplyDelete"), navigation menus, dates and non-delimited headers. When the headers (etc.) were cleanly separated in their own lines, I did not mark the text as having artifacts
+* 10 docs with unnatural text, mostly SEO word lists
