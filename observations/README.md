@@ -55,3 +55,11 @@ Occasionally the first part contains traces of menus, while the second part cons
 * No porn
 * Some documents contain news snippets concatenated together, so natural/fluent at the sentence level but not "coherent".
 * A lot of documents contain “report”, “share”, “follow us” etc at the end which may be part of article and not boilerplate but I have still flagged them
+
+# Amanda [fin_Latn/batch2.tsv](../annot_round1/fin_Latn/batch2.tsv)
+
+* Lang id perfect except one with ~50% English and one with some mess of Finnish, Estonian(?), gibberish, and English (<- chose to put it in this category because I could not understand the text)
+* 2/200 porn
+* A lot of adds, however with majority flowing text. Lots of news as well with bias towards one municipality (just a feature of this batch?)
+* Text artifacts: forum posts had a lot of instances ot this: ``AnswerDeleteAnswerSuch a perfect combination!``
+* Minor problems with Ä and Ö: ~5 texts had problems with these characters (either missing completely or unicode replacement �)
