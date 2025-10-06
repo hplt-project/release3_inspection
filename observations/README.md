@@ -100,12 +100,12 @@ Occasionally the first part contains traces of menus, while the second part cons
 
 * Language tagging is mostly correct, although there are snippets of other languages in some documents (e.g. disclaimers in English; Slovenian menu items under text published in Croatian)
 * Incorrectly tagged documents are mostly Bosnian, occasionally Serbian (apart from morphology and vocabulary, this can sometimes be automatically differentiated by web domain artifacts in the text (.ba for Bosnian, .rs for Serbian))
-* Most frequent artifact: ``...(n characters skipped)...``
-* Other frequent artifacts: share/comment buttons, links to unrelated news headlines
+* Frequent artifacts: share/comment buttons, interspersed links to unrelated news headlines, snippets of headlines
 * (Note that the _Artifacts_ tag covers a spectrum from mostly harmless and easily cleaned (share/comment/read more), to more egregious (unrelated news headlines interjected in running text))
-* Roughly 1/4 of documents consists of product descriptions and lists of news headlines, that make for suboptimal train/test data
 * 3/400 porn, in the form of salacious personal ads
 * One curious document in batch1 (no. 92), written in a highly misleading Croatian dialect. Marked as 0, as it's a supremely unhelpful outlier for train/test.
+* Roughly 1/4 of documents consists of product descriptions and lists of news headlines, that make for suboptimal train/test data
+* High-level comment: the quality of the data varies widely and requires further inspection. News articles (once cleaned of artifacts) are useful sources, but most other documents are garbled strings of product descriptions scraped from webshops, MT adverts, and user comments of very poor quality.
 
 # Maja, [bos_Latn/batch0.tsv](../annot_round1/bos_Latn/batch0.tsv), [batch1.tsv](../annot_round1/bos_Latn/batch1.tsv)
 
@@ -114,9 +114,10 @@ Occasionally the first part contains traces of menus, while the second part cons
 * Handful of documents in Croatian (10/400), Montenegrin (6/400)
 * Snippets of other languages in some correctly classified documents (usually Serbian; some English disclaimers)
 * Handful of Bosnian documents with Cyrillic, Arabic segments
-* Most frequent artifact: ``...(n characters skipped)...``
+* Frequent artifacts: share/comment buttons, links to unrelated news headlines
 * Only one instance of unicode trouble; in particular, with _đ_
 * No documents containing porn, but 3/400 documents feature explicit language
+* Compared to the _hrv_ set, _bos_ (although much smaller) contains more quality articles from news sources, and less garbled snippets, but would still benefit from a cleanup.
 
 # Michal Novák, [slk_Latn/batch1.tsv](../annot_round1/slk_Latn/batch1.tsv)
 
