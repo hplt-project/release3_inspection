@@ -123,3 +123,10 @@
     * with no diacritics (14, 21, 96, 109, 129, 156, 158, 184). This is typical for Slovak chat/forum language, which also often contains typos and grammatical mistakes. But I do not consider it unnatural.
     * with completely grammatical and fluent boilerplate, which often appears on news and e-commerce pages
     * that consist of multiple non-coherent parts
+
+# Mardhiyah, [yor_Latn/batch0.tsv](../annot_round1/yor_Latn/batch0.tsv)
+
+* Lang id is mostly correct. The few non-Yoruba documents turned out to be either in English or Urhobo (another Nigerian language).
+* Many of the Yoruba documents included code-switching and transliterated words — both are very common in everyday Yoruba speech.
+* 2 porn docs
+* Some docs were written without diacritics, but I didn’t treat this as unnatural since many Yoruba texts are written that way in practice.
