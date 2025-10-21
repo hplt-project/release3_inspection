@@ -130,3 +130,10 @@
 * Many of the Yoruba documents included code-switching and transliterated words — both are very common in everyday Yoruba speech.
 * 2 porn docs
 * Some docs were written without diacritics, but I didn’t treat this as unnatural since many Yoruba texts are written that way in practice.
+
+# Maja, [srp_Cyrl/batch0.tsv](../annot_round1/srp_Cyrl/batch0.tsv)
+
+* Language tagging is correct; unlike batches for other BCMS languages, there's no mistagged documents from other languages in the group, due to the difference in script (Cyrillic/Latin)
+* Small number of inserts of Latin script in the form of user comments below news articles (around 5% of batch)
+* Most frequent artifacts: news site links and metadata, lists of news headlines, and news articles cut off mid-paragraph
+* Some unnatural text present, in the form of poorly machine-translated articles and webshop pages (around 10% of batch)
