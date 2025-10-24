@@ -137,3 +137,20 @@
 * Small number of inserts of Latin script in the form of user comments below news articles (around 5% of batch)
 * Most frequent artifacts: news site links and metadata, lists of news headlines, and news articles cut off mid-paragraph
 * Some unnatural text present, in the form of poorly machine-translated articles and webshop pages (around 10% of batch)
+
+# [fra_Latn/batch0.tsv](../annot_round1/fra_Latn/batch0.tsv)
+
+* Lots of punctuation mistakes, also inconsistent within a document.
+* Ads seem to be mixed within the text with no clear demarcation
+* Some of the texts are cut in the middle of sentences
+* Hard time distinguishing menu lists found inside the text
+* New line cuts are awkward at times (i.e. in the middle of sentences)
+
+# [por_Latn/batch0.tsv](../annot_round1/por_Latn/batch0.tsv)
+
+* Captions for images (as in who took them) are often left in the text.
+* A lot of artefacts such as “post comment”, “edit comment”, etc.
+* Most text is Brazilian Portuguese and not Portuguese from Portugal.
+* Often, more information, more shows, more… are left in the text rather than filtered out
+* Seems like buttons (respond, exclude, edit) are not filtered out and end up being one word in the text.
+* Wrong line breaks in some texts
