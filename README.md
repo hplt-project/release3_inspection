@@ -24,8 +24,9 @@ Data:
 - [the original sample](sample)
 - [the sample converted to a format appropriate for annotation, partially annotated](annot_round1)
 - [observations provided by the annotators](observations/README.md)
-- [all annotated documents in one file along with annotations](annotated.tsv)
-
+- [all annotations](annotations.tsv)
+- [all annotated documents in one file along with annotations](annotated.jsonl.zst)
+- 
 Analysis:
 - [summary table](results_per_lang.tsv)
 - [detailed analysis](Proportions-HPLTv3.ipynb)
